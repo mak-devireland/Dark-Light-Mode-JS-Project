@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en" class="light">
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Projeto Web com JS</title>
+  </head>
+  <body>
+    <div id="container">
+      <div id="profile">
+        <img src="./assets/jeremyprofile.png" alt="Foto do Perfil Jeremy" />
+        <p>@mak.devireland</p>
+      </div>
+
+      <div id="switch" onclick="toggleMode()">
+        <button></button>
+        <span></span>
+      </div>
+
+      <ul>
+        <li><a href="#">Inscrever-se NLW</a></li>
+        <li><a href="#">Baixar meu e-book</a></li>
+        <li><a href="#">Ver meu Portifolio</a></li>
+        <li>
+          <a
+            href="https://www.linkedin.com/in/maksuel-da-silva-milhomem-3824aa189/"
+            target="_blank"
+            >Conheca o Explorer</a
+          >
+        </li>
+      </ul>
+
+      <div id="social-links">
+        <a href="http://github.com" target="_blank"
+          ><ion-icon name="logo-github"></ion-icon
+        ></a>
+        <a href="http://linkedin.com" target="_blank"
+          ><ion-icon name="logo-Linkedin"></ion-icon
+        ></a>
+        <a href="http://youtube.com" target="_blank"
+          ><ion-icon name="logo-youtube"></ion-icon
+        ></a>
+        <a href="http://instagram.com" target="_blank"
+          ><ion-icon name="logo-instagram"></ion-icon
+        ></a>
+      </div>
+
+      <footer>
+        Feito com <ion-icon name="heart"></ion-icon> pela
+        <a href="http://rocketseat.com.br">Rocketseat</a>
+      </footer>
+    </div>
+
+    <!-- Social Icons -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+
+    <script src="./main.js"></script>
+  </body>
+</html>
